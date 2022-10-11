@@ -1,0 +1,123 @@
+ 
+/*Theoretically sets all element formatting to this font, unless overridden*/
+ root{
+     -fx-font-family: Times New Roman, sans-serif;
+}
+ button.largetext{
+     -fx-font-size: 15px;
+}
+/*TableView formatting for Practice and Dictionary screens*/
+ .table-view .column-header-background, .table-view .column-header, .table-view .filler {
+     -fx-background-color: #2E2E2E;
+}
+ .table-view .column-header-background .label{
+     -fx-text-fill: white;
+     -fx-font-size: 24px;
+}
+ .table-view .table-cell{
+     -fx-font-size: 15px;
+     -fx-font-weight: bold;
+}
+
+/*Button formatting*/
+ .button{
+     -fx-font-family: Myriad Pro, sans-serif;
+     -fx-background-radius: 0;
+     -fx-font-weight: bold;
+     -fx-text-fill: black;
+     -fx-font-size: 12px;
+     -fx-background-color: #FFFFFF;
+}
+ .button.select{
+     -fx-font-size: 15px;
+     -fx-font-weight: bold;
+}
+ .combo-box.menu, .text-field.menu{
+     -fx-font-family: Myriad Pro, sans-serif;
+     -fx-background-radius: 0;
+     -fx-padding: 2 3 2 3;
+     -fx-font-size: 15px;
+     -fx-font-weight: bold;
+     -fx-background-color:white;
+}
+ .button.padded{
+     -fx-font-weight: bold;
+     -fx-padding: 12 30 12 30;
+}
+.button.extra-padded{
+     -fx-font-weight: bold;
+     -fx-font-size: 30px;
+     -fx-padding: 24 50 24 50;
+}
+ /*.button*/
+ .dark{
+     -fx-text-fill: white;
+     -fx-background-color: #444444;
+}
+ .button.socket{
+     -fx-background-color: #D4D4D4;
+}
+.incorrect{
+     -fx-background-color: red;
+}
+.correct{
+     -fx-background-color: green;
+}
+
+.button.grey{
+    -fx-background-color:#CECECE;
+}
+
+/*Custom class to format UI elements on the Add Word window*/
+ .addword{
+     -fx-font-family: Myriad Pro, sans-serif;
+     -fx-text-fill: black;
+     -fx-font-size: 15px;
+     -fx-font-weight: bold;
+     -fx-alignment: CENTER;
+     -fx-background-color:#4C7AB4;
+}
+ .label{
+     -fx-font-family: Myriad Pro, sans-serif;
+}
+ .label.menu{
+     -fx-text-fill: white;
+     -fx-font-size: 15px;
+     -fx-font-weight: bold;
+}
+ .tab-pane .tab-header-area .tab-header-background {
+     -fx-opacity: 0;
+     -fx-padding: 0.0em 0.0em 0.0em 0.0em;
+}
+ .tab-pane {
+     -fx-background-color:#A0A0A0;
+}
+ .tab{
+     -fx-background-radius: 0;
+}
+ .tab-pane .tab {
+     -fx-background-color: #444444;
+}
+ .tab-pane .tab:selected {
+     -fx-background-color: #4C7AB4;
+}
+ .tab .tab-label {
+     -fx-alignment: CENTER;
+     -fx-text-fill: #FFFFFF;
+     -fx-font-size: 15px;
+     -fx-font-weight: bold;
+}
+
+ .pane.menu, .menu > HBox, .menu > VBox{
+     -fx-background-color: #4C7AB4;
+     -fx-padding: 0 0 0 0;
+}
+.blue-background{
+    -fx-background-color:#4C7AB4;
+    -fx-text-fill: #FFFFFF;
+}
+
+.score-display{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 25px;
+}
